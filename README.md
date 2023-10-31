@@ -1,6 +1,6 @@
 # Inovin
 
-![Inovin Logo]([https://drive.google.com/file/d/14daeHSjFxvmUG-RjQZvdQsU4Ua-cbGpV/view?usp=sharing](https://drive.google.com/file/d/14daeHSjFxvmUG-RjQZvdQsU4Ua-cbGpV/view))
+![Inovin Logo](https://i.ibb.co/Ltb0P32/logo-Plan-de-travail-1.png)
 
 Inovin est une application innovante qui facilite la gestion de vos ateliers viticoles. Développée en réponse aux besoins de notre partenaire, Cédric Boriat, un entrepreneur de Lozère, Inovin permet aux utilisateurs de créer, déguster et personnaliser leurs propres vins. Voici un résumé du projet :
 
