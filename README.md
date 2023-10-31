@@ -75,11 +75,12 @@ npm start
 Accédez à l'application dans votre navigateur à l'adresse http://localhost:3000.
 ```
 
-Contributeurs
-Anne Marchasson 
-Khouloud Belkhir
-Florent Marin
-Marie Vangrevelynghe
+#### Contributeurs:
+
+Anne Marchasson ,
+Khouloud Belkhir ,
+Florent Marin ,
+Marie Vangrevelynghe ,
 Val Agostini
 
 N'hésitez pas à nous contacter directement si vous avez des questions ou des suggestions.
