@@ -1,53 +1,85 @@
-## Concept
+# Inovin
 
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying as simple as possible to use.
+![Inovin Logo](https://drive.google.com/file/d/14daeHSjFxvmUG-RjQZvdQsU4Ua-cbGpV/view?usp=sharing)
 
-## Setup & Use
+Inovin est une application innovante qui facilite la gestion de vos ateliers viticoles. Développée en réponse aux besoins de notre partenaire, Cédric Boriat, un entrepreneur de Lozère, Inovin permet aux utilisateurs de créer, déguster et personnaliser leurs propres vins. Voici un résumé du projet :
 
-### Windows users
+## Résumé du Projet
 
-Be sure to run these commands in a git terminal to avoid [issues with newline formats](https://en.wikipedia.org/wiki/Newline#Issues_with_different_newline_formats):
+Cédric Boriat, un entrepreneur de Lozère, souhaitait développer le prototype d’une application web pour ses ateliers viticoles. Les fonctionnalités demandées par le partenaire sont les suivantes, par ordre de priorité :
 
+1. Les utilisateurs peuvent créer un compte.
+2. Les utilisateurs connectés peuvent compléter des fiches de dégustation de vins.
+3. Les utilisateurs connectés peuvent assembler des cépages et créer leur propre vin.
+
+Les fonctionnalités souhaitées sont les suivantes :
+
+4. Les utilisateurs connectés peuvent commander leur création.
+5. Les utilisateurs connectés peuvent laisser un avis sur le livre d’or.
+6. Un espace d'administration pour gérer les clients, les cépages et les créations de vin.
+
+
+## Technologies et Méthodologies Web
+
+### Front-end
+
+HTML,
+CSS,
+JavaScript,
+React,
+Sass
+
+### Back
+Express,
+NodeJs,
+MySQL
+
+### Méthodologie/Normes
+Scrum,
+Agile,
+backlog,
+Sprint,
+Product Owner,
+Git et GitHub,
+3WS,
+prettier, 
+Es Lint
+
+
+## Pré-requis
+
+Avant d'utiliser Inovin, assurez-vous de disposer des éléments suivants :
+
+- Node.js version v18.15.0
+
+
+
+## Installation
+
+Pour installer Inovin, suivez ces étapes :
+
+ Clonez ce dépôt localement en utilisant la commande :
+
+```bash
+git clone https://github.com/annemarchasson/inovin.git
+
+
+Installez les dépendances en exécutant npm install 
+(ou yarn install si vous utilisez Yarn).
+
+Démarrez l'application avec la commande :
+
+bash
+Copy code
+npm start
+Accédez à l'application dans votre navigateur à l'adresse http://localhost:3000.
 ```
-git config --global core.eol lf
-git config --global core.autocrlf false
-```
 
-### Project Initialization
+Contributeurs
+Anne Marchasson 
+Khouloud Belkhir
+Florent Marin
+Marie Vangrevelynghe
+Val Agostini
 
-- In VSCode, install plugins **Prettier - Code formatter** and **ESLint** and configure them
-- Clone this repo, enter it
-- If you are using `yarn` or `pnpm`, adapt the `config/cli` in `package.json`
-- Run command `npm install`
-- _NB: To launch the backend server, you'll need an environment file with database credentials. You'll find a template one in `backend/.env.sample`_
-
-### Available Commands
-
-- `migrate` : Run the database migration script
-- `dev` : Starts both servers (frontend + backend) in one terminal
-- `dev-front` : Starts the React frontend server
-- `dev-back` : Starts the Express backend server
-- `lint` : Runs validation tools, and refuses unclean code (will be executed on every _commit_)
-- `fix` : Fixes linter errors (run it if `lint` growls on your code !)
-
-## FAQ
-
-### Tools
-
-- _Concurrently_ : Allows for several commands to run concurrently in the same CLI
-- _Husky_ : Allows to execute specific commands that trigger on _git_ events
-- _Vite_ : Alternative to _Create-React-App_, packaging less tools for a more fluid experience
-- _ESLint_ : "Quality of code" tool, ensures chosen rules will be enforced
-- _Prettier_ : "Quality of code" tool as well, focuses on the styleguide
-- _ Airbnb Standard_ : One of the most known "standards", even though it's not officially linked to ES/JS
-- _Nodemon_ : Allows to restart the server everytime a .js file is udated
-
-### Deployment
-
-For deployment, you have to go to `secrets` → app `actions` on the github repo to insert via `New repository secret` :
-
-- CAPROVER_BACK_APPNAME : name app on caprover
-- CAPROVER_FRONT_APPNAME : name app on caprover
-- CAPROVER_PASSWORD : password caprover
-- CAPROVER_SERVER : link of domain
+N'hésitez pas à nous contacter directement si vous avez des questions ou des suggestions.
