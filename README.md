@@ -71,7 +71,7 @@ Démarrez l'application avec la commande :
 
 bash
 Copy code
-npm start
+npm dev
 Accédez à l'application dans votre navigateur à l'adresse http://localhost:3000.
 ```
 
